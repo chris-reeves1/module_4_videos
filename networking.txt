@@ -1,0 +1,15 @@
+docker network create <network_name>: Creates a new network in Docker.
+
+docker network ls: Lists all networks available on the Docker host.
+
+docker network inspect <network_name>: Displays detailed information about a specific network.
+
+docker network connect <network_name> <container_name>: Connects a container to a network.
+
+docker network disconnect <network_name> <container_name>: Disconnects a container from a network.
+
+docker network rm <network_name>: Removes a network.
+
+docker network prune: Removes all unused networks.
+
+docker network create --driver <driver_name> <network_name>: Creates a new network using a specific driver.
